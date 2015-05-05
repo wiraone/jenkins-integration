@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>BFFF8C8C-B285-4DB3-A0E5-5D2790A0ABE5</string>
+	<key>IDESourceControlProjectName</key>
+	<string>jenkinsIntegration</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>50093876C17736A9A15E3ADE31132F59939217D1</key>
+		<string>github.com:wiraone/jenkins-integration.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>jenkinsIntegration.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>50093876C17736A9A15E3ADE31132F59939217D1</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>github.com:wiraone/jenkins-integration.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>50093876C17736A9A15E3ADE31132F59939217D1</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>50093876C17736A9A15E3ADE31132F59939217D1</string>
+			<key>IDESourceControlWCCName</key>
+			<string>jenkins-integration</string>
+		</dict>
+	</array>
+</dict>
+</plist>
