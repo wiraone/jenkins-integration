@@ -173,7 +173,7 @@
 				TargetAttributes = {
 					A8FD64E81AF8B7E400874551 = {
 						CreatedOnToolsVersion = 6.1.1;
-						DevelopmentTeam = A9P9DCV3NU;
+						DevelopmentTeam = 696UPVWUQ3;
 					};
 					A8FD65041AF8B7E400874551 = {
 						CreatedOnToolsVersion = 6.1.1;
@@ -287,8 +287,8 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer: Wirawan Paulus (TK27C57UCQ)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Wirawan Paulus (TK27C57UCQ)";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Kam Ling FONG (B7XEJ8KVVQ)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Kam Ling FONG (B7XEJ8KVVQ)";
 				COPY_PHASE_STRIP = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -308,7 +308,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
-				PROVISIONING_PROFILE = "a35629ef-489a-4b66-b02e-fbac158c0a61";
+				PROVISIONING_PROFILE = "ae62e21b-a7cc-4aaf-b09f-9c0fb125ec39";
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -330,8 +330,8 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer: Wirawan Paulus (TK27C57UCQ)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Wirawan Paulus (TK27C57UCQ)";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Kam Ling FONG (B7XEJ8KVVQ)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Kam Ling FONG (B7XEJ8KVVQ)";
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -344,7 +344,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
-				PROVISIONING_PROFILE = "a35629ef-489a-4b66-b02e-fbac158c0a61";
+				PROVISIONING_PROFILE = "ae62e21b-a7cc-4aaf-b09f-9c0fb125ec39";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -354,11 +354,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer: Wirawan Paulus (TK27C57UCQ)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = jenkinsIntegration/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "a35629ef-489a-4b66-b02e-fbac158c0a61";
+				PROVISIONING_PROFILE = "ae62e21b-a7cc-4aaf-b09f-9c0fb125ec39";
 			};
 			name = Debug;
 		};
@@ -366,11 +366,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer: Wirawan Paulus (TK27C57UCQ)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = jenkinsIntegration/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "a35629ef-489a-4b66-b02e-fbac158c0a61";
+				PROVISIONING_PROFILE = "ae62e21b-a7cc-4aaf-b09f-9c0fb125ec39";
 			};
 			name = Release;
 		};
