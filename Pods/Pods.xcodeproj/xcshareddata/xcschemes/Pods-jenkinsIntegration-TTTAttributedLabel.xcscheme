@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "EF94A7C5DB53AE2947C1DE87"
-               BuildableName = "libPods-jenkinsIntegration.a"
-               BlueprintName = "Pods-jenkinsIntegration"
+               BlueprintIdentifier = "6E2BF0C55E9BD4F0C295665F"
+               BuildableName = "libPods-jenkinsIntegration-TTTAttributedLabel.a"
+               BlueprintName = "Pods-jenkinsIntegration-TTTAttributedLabel"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -39,6 +39,15 @@
       ignoresPersistentStateOnLaunch = "NO"
       debugDocumentVersioning = "YES"
       allowLocationSimulation = "YES">
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "6E2BF0C55E9BD4F0C295665F"
+            BuildableName = "libPods-jenkinsIntegration-TTTAttributedLabel.a"
+            BlueprintName = "Pods-jenkinsIntegration-TTTAttributedLabel"
+            ReferencedContainer = "container:Pods.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>

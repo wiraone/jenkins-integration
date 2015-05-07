@@ -4,15 +4,15 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>Pods-jenkinsIntegration-TTTAttributedLabel.xcscheme</key>
+		<key>Pods-jenkinsIntegration-TTTAttributedLabel.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>isShown</key>
-			<false/>
+			<true/>
 		</dict>
-		<key>Pods-jenkinsIntegration.xcscheme</key>
+		<key>Pods-jenkinsIntegration.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>isShown</key>
-			<false/>
+			<true/>
 		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
