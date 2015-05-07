@@ -7,9 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "TTTAttributedLabel.h"
 
 @interface SecondViewController : UIViewController
-
+@property (nonatomic,strong)IBOutlet TTTAttributedLabel *titleLabel;
 
 @end
 
