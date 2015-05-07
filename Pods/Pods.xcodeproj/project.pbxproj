@@ -1,0 +1,447 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4C3D48E36D1C19E1244233A1 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CEA0E1EBBD642580CF2E265 /* QuartzCore.framework */; };
+		67ACC928B15BD038575CF0F6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76095E8E624B75963D6C492C /* UIKit.framework */; };
+		6F3DF514C25772A85C121624 /* TTTAttributedLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = 08F2C70077B231DFBFFB274F /* TTTAttributedLabel.h */; };
+		73B0EEAB036CC62D9F2510D7 /* Pods-jenkinsIntegration-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A76670B9A5A8A0094448DFCC /* Pods-jenkinsIntegration-dummy.m */; };
+		7D92DC2E3219D1574054E033 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8B155ABDC6F953E90193667 /* CoreText.framework */; };
+		A3B74EB6CF43F90E6529F2FC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE321A22C42585D86E35902D /* CoreGraphics.framework */; };
+		AAA4464C3ABDEFC646A8BB10 /* TTTAttributedLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 5979749902E67E4E50ACAF22 /* TTTAttributedLabel.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		BD022B16629481B27E27C0BD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6ABAD1CE101466DD15A10A19 /* Foundation.framework */; };
+		D69AD88166D93EB7843AD796 /* Pods-jenkinsIntegration-TTTAttributedLabel-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D944D76E735D353204FC853C /* Pods-jenkinsIntegration-TTTAttributedLabel-dummy.m */; };
+		DB8F550ECF6B163F3059F915 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6ABAD1CE101466DD15A10A19 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D7F090C2FB6F967D413F5233 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E1FEDE2AAA9B49B37A1C8CD7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6E2BF0C55E9BD4F0C295665F;
+			remoteInfo = "Pods-jenkinsIntegration-TTTAttributedLabel";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0265D12ECB60E975388E92D2 /* libPods-jenkinsIntegration.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-jenkinsIntegration.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		08F2C70077B231DFBFFB274F /* TTTAttributedLabel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TTTAttributedLabel.h; path = TTTAttributedLabel/TTTAttributedLabel.h; sourceTree = "<group>"; };
+		0CEA0E1EBBD642580CF2E265 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		124DAF1ABBB12FB6AD58C779 /* Pods-jenkinsIntegration-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-jenkinsIntegration-acknowledgements.markdown"; sourceTree = "<group>"; };
+		2EF195D6DF495B3D6C330141 /* libPods-jenkinsIntegration-TTTAttributedLabel.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-jenkinsIntegration-TTTAttributedLabel.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5979749902E67E4E50ACAF22 /* TTTAttributedLabel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TTTAttributedLabel.m; path = TTTAttributedLabel/TTTAttributedLabel.m; sourceTree = "<group>"; };
+		5E0C2B8B0637F2C66D77DB02 /* Pods-jenkinsIntegration-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-jenkinsIntegration-acknowledgements.plist"; sourceTree = "<group>"; };
+		5E9F376DCFF77AFA0A97E1BF /* Pods-jenkinsIntegration.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-jenkinsIntegration.release.xcconfig"; sourceTree = "<group>"; };
+		69A1373357F53AE73614E1E0 /* Pods-jenkinsIntegration-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-jenkinsIntegration-resources.sh"; sourceTree = "<group>"; };
+		6ABAD1CE101466DD15A10A19 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		76095E8E624B75963D6C492C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		8F7F13E95BBC29CE94FAEFE7 /* Pods-jenkinsIntegration.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-jenkinsIntegration.debug.xcconfig"; sourceTree = "<group>"; };
+		9B905460483530E4ABE55FDF /* Pods-jenkinsIntegration-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-jenkinsIntegration-environment.h"; sourceTree = "<group>"; };
+		9C678ABCC173AAE1EB326B56 /* Pods-jenkinsIntegration-TTTAttributedLabel-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-jenkinsIntegration-TTTAttributedLabel-Private.xcconfig"; sourceTree = "<group>"; };
+		A76670B9A5A8A0094448DFCC /* Pods-jenkinsIntegration-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-jenkinsIntegration-dummy.m"; sourceTree = "<group>"; };
+		A8B155ABDC6F953E90193667 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreText.framework; sourceTree = DEVELOPER_DIR; };
+		BA70C666166F3B467D66E551 /* Pods-jenkinsIntegration-TTTAttributedLabel-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-jenkinsIntegration-TTTAttributedLabel-prefix.pch"; sourceTree = "<group>"; };
+		BE321A22C42585D86E35902D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		C2D5F2D80E4A36E76F03E444 /* Pods-jenkinsIntegration-TTTAttributedLabel.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-jenkinsIntegration-TTTAttributedLabel.xcconfig"; sourceTree = "<group>"; };
+		CED48823894EBACF2228D7CE /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		D944D76E735D353204FC853C /* Pods-jenkinsIntegration-TTTAttributedLabel-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-jenkinsIntegration-TTTAttributedLabel-dummy.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9068D0D882CA560087C0BE52 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3B74EB6CF43F90E6529F2FC /* CoreGraphics.framework in Frameworks */,
+				7D92DC2E3219D1574054E033 /* CoreText.framework in Frameworks */,
+				BD022B16629481B27E27C0BD /* Foundation.framework in Frameworks */,
+				4C3D48E36D1C19E1244233A1 /* QuartzCore.framework in Frameworks */,
+				67ACC928B15BD038575CF0F6 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA9FD01541F9F71897DD0EA7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB8F550ECF6B163F3059F915 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2BE65D9E3E4DB4FA26C93990 /* Pods-jenkinsIntegration */ = {
+			isa = PBXGroup;
+			children = (
+				124DAF1ABBB12FB6AD58C779 /* Pods-jenkinsIntegration-acknowledgements.markdown */,
+				5E0C2B8B0637F2C66D77DB02 /* Pods-jenkinsIntegration-acknowledgements.plist */,
+				A76670B9A5A8A0094448DFCC /* Pods-jenkinsIntegration-dummy.m */,
+				9B905460483530E4ABE55FDF /* Pods-jenkinsIntegration-environment.h */,
+				69A1373357F53AE73614E1E0 /* Pods-jenkinsIntegration-resources.sh */,
+				8F7F13E95BBC29CE94FAEFE7 /* Pods-jenkinsIntegration.debug.xcconfig */,
+				5E9F376DCFF77AFA0A97E1BF /* Pods-jenkinsIntegration.release.xcconfig */,
+			);
+			name = "Pods-jenkinsIntegration";
+			path = "Target Support Files/Pods-jenkinsIntegration";
+			sourceTree = "<group>";
+		};
+		436D345F25218EE3CD96F26F /* TTTAttributedLabel */ = {
+			isa = PBXGroup;
+			children = (
+				08F2C70077B231DFBFFB274F /* TTTAttributedLabel.h */,
+				5979749902E67E4E50ACAF22 /* TTTAttributedLabel.m */,
+				55A00D05630D243919F7BC01 /* Support Files */,
+			);
+			path = TTTAttributedLabel;
+			sourceTree = "<group>";
+		};
+		55A00D05630D243919F7BC01 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C2D5F2D80E4A36E76F03E444 /* Pods-jenkinsIntegration-TTTAttributedLabel.xcconfig */,
+				9C678ABCC173AAE1EB326B56 /* Pods-jenkinsIntegration-TTTAttributedLabel-Private.xcconfig */,
+				D944D76E735D353204FC853C /* Pods-jenkinsIntegration-TTTAttributedLabel-dummy.m */,
+				BA70C666166F3B467D66E551 /* Pods-jenkinsIntegration-TTTAttributedLabel-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-jenkinsIntegration-TTTAttributedLabel";
+			sourceTree = "<group>";
+		};
+		61A4A50D8C6C77F971F7B96F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7BD2E0ABE503BFD4E97D177C /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7BD2E0ABE503BFD4E97D177C /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				BE321A22C42585D86E35902D /* CoreGraphics.framework */,
+				A8B155ABDC6F953E90193667 /* CoreText.framework */,
+				6ABAD1CE101466DD15A10A19 /* Foundation.framework */,
+				0CEA0E1EBBD642580CF2E265 /* QuartzCore.framework */,
+				76095E8E624B75963D6C492C /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		A9655CCDBA52D320FC2DE9DF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				436D345F25218EE3CD96F26F /* TTTAttributedLabel */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B39D78687ED4A8231206DC08 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0265D12ECB60E975388E92D2 /* libPods-jenkinsIntegration.a */,
+				2EF195D6DF495B3D6C330141 /* libPods-jenkinsIntegration-TTTAttributedLabel.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DEAEF22B708725E97112D061 = {
+			isa = PBXGroup;
+			children = (
+				CED48823894EBACF2228D7CE /* Podfile */,
+				61A4A50D8C6C77F971F7B96F /* Frameworks */,
+				A9655CCDBA52D320FC2DE9DF /* Pods */,
+				B39D78687ED4A8231206DC08 /* Products */,
+				E635AEEA15DB18D17B268244 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		E635AEEA15DB18D17B268244 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2BE65D9E3E4DB4FA26C93990 /* Pods-jenkinsIntegration */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		B665E12B7A545E460D6D5B7D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F3DF514C25772A85C121624 /* TTTAttributedLabel.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		6E2BF0C55E9BD4F0C295665F /* Pods-jenkinsIntegration-TTTAttributedLabel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B487C8A9FA9358EFA5626E0D /* Build configuration list for PBXNativeTarget "Pods-jenkinsIntegration-TTTAttributedLabel" */;
+			buildPhases = (
+				CC2D150BCD2BC9BF4E63D562 /* Sources */,
+				9068D0D882CA560087C0BE52 /* Frameworks */,
+				B665E12B7A545E460D6D5B7D /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-jenkinsIntegration-TTTAttributedLabel";
+			productName = "Pods-jenkinsIntegration-TTTAttributedLabel";
+			productReference = 2EF195D6DF495B3D6C330141 /* libPods-jenkinsIntegration-TTTAttributedLabel.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		EF94A7C5DB53AE2947C1DE87 /* Pods-jenkinsIntegration */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 74F890E0A04604C9374A1DA2 /* Build configuration list for PBXNativeTarget "Pods-jenkinsIntegration" */;
+			buildPhases = (
+				50FD8B05E1AFB0FADAC7AD26 /* Sources */,
+				FA9FD01541F9F71897DD0EA7 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FC112FCBC81ABA1392BB07AB /* PBXTargetDependency */,
+			);
+			name = "Pods-jenkinsIntegration";
+			productName = "Pods-jenkinsIntegration";
+			productReference = 0265D12ECB60E975388E92D2 /* libPods-jenkinsIntegration.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E1FEDE2AAA9B49B37A1C8CD7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+			};
+			buildConfigurationList = A2972CBE35522F1FC74BD9DA /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = DEAEF22B708725E97112D061;
+			productRefGroup = B39D78687ED4A8231206DC08 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EF94A7C5DB53AE2947C1DE87 /* Pods-jenkinsIntegration */,
+				6E2BF0C55E9BD4F0C295665F /* Pods-jenkinsIntegration-TTTAttributedLabel */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		50FD8B05E1AFB0FADAC7AD26 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				73B0EEAB036CC62D9F2510D7 /* Pods-jenkinsIntegration-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC2D150BCD2BC9BF4E63D562 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D69AD88166D93EB7843AD796 /* Pods-jenkinsIntegration-TTTAttributedLabel-dummy.m in Sources */,
+				AAA4464C3ABDEFC646A8BB10 /* TTTAttributedLabel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FC112FCBC81ABA1392BB07AB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-jenkinsIntegration-TTTAttributedLabel";
+			target = 6E2BF0C55E9BD4F0C295665F /* Pods-jenkinsIntegration-TTTAttributedLabel */;
+			targetProxy = D7F090C2FB6F967D413F5233 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		44342D89AB2ADBE9E97E4165 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		47CAEB800C77C77E1D03D21C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9C678ABCC173AAE1EB326B56 /* Pods-jenkinsIntegration-TTTAttributedLabel-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-jenkinsIntegration-TTTAttributedLabel/Pods-jenkinsIntegration-TTTAttributedLabel-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		48A841D720071045EDA3C951 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9C678ABCC173AAE1EB326B56 /* Pods-jenkinsIntegration-TTTAttributedLabel-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-jenkinsIntegration-TTTAttributedLabel/Pods-jenkinsIntegration-TTTAttributedLabel-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		829BB25B0BB8CC584F543509 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8F7F13E95BBC29CE94FAEFE7 /* Pods-jenkinsIntegration.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		852B6C656587DB67D77FA59C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F5BD7634F73CAC9945013223 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5E9F376DCFF77AFA0A97E1BF /* Pods-jenkinsIntegration.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		74F890E0A04604C9374A1DA2 /* Build configuration list for PBXNativeTarget "Pods-jenkinsIntegration" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				829BB25B0BB8CC584F543509 /* Debug */,
+				F5BD7634F73CAC9945013223 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A2972CBE35522F1FC74BD9DA /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44342D89AB2ADBE9E97E4165 /* Debug */,
+				852B6C656587DB67D77FA59C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B487C8A9FA9358EFA5626E0D /* Build configuration list for PBXNativeTarget "Pods-jenkinsIntegration-TTTAttributedLabel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47CAEB800C77C77E1D03D21C /* Debug */,
+				48A841D720071045EDA3C951 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E1FEDE2AAA9B49B37A1C8CD7 /* Project object */;
+}

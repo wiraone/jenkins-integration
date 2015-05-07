@@ -32,6 +32,7 @@
 		A8FD64FD1AF8B7E400874551 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A8FD64FC1AF8B7E400874551 /* Images.xcassets */; };
 		A8FD65001AF8B7E400874551 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A8FD64FE1AF8B7E400874551 /* LaunchScreen.xib */; };
 		A8FD650C1AF8B7E400874551 /* jenkinsIntegrationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A8FD650B1AF8B7E400874551 /* jenkinsIntegrationTests.m */; };
+		C33C993BBABE28959EE3B7CD /* libPods-jenkinsIntegration.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F3275F3716D6250F2FBB6906 /* libPods-jenkinsIntegration.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7FAE31A169D40009A1D3C8DE /* Pods-jenkinsIntegration.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-jenkinsIntegration.debug.xcconfig"; path = "Pods/Target Support Files/Pods-jenkinsIntegration/Pods-jenkinsIntegration.debug.xcconfig"; sourceTree = "<group>"; };
 		A8F551A91AF9C064007903EC /* CHANGELOG */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CHANGELOG; sourceTree = "<group>"; };
 		A8F551AA1AF9C064007903EC /* de.bitstadium.HockeySDK-iOS-3.6.2.docset */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = "de.bitstadium.HockeySDK-iOS-3.6.2.docset"; sourceTree = "<group>"; };
 		A8F551AC1AF9C064007903EC /* HockeySDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = HockeySDK.framework; sourceTree = "<group>"; };
@@ -78,6 +80,8 @@
 		A8FD65051AF8B7E400874551 /* jenkinsIntegrationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = jenkinsIntegrationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8FD650A1AF8B7E400874551 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A8FD650B1AF8B7E400874551 /* jenkinsIntegrationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = jenkinsIntegrationTests.m; sourceTree = "<group>"; };
+		B06C970482FDE00D85376697 /* Pods-jenkinsIntegration.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-jenkinsIntegration.release.xcconfig"; path = "Pods/Target Support Files/Pods-jenkinsIntegration/Pods-jenkinsIntegration.release.xcconfig"; sourceTree = "<group>"; };
+		F3275F3716D6250F2FBB6906 /* libPods-jenkinsIntegration.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-jenkinsIntegration.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +100,7 @@
 				A8F551BF1AF9C07F007903EC /* CoreGraphics.framework in Frameworks */,
 				A8F551BD1AF9C077007903EC /* AssetsLibrary.framework in Frameworks */,
 				A8F551B91AF9C064007903EC /* HockeySDK.framework in Frameworks */,
+				C33C993BBABE28959EE3B7CD /* libPods-jenkinsIntegration.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -109,6 +114,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		88F9BC5AF8FC75F4E5B11777 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7FAE31A169D40009A1D3C8DE /* Pods-jenkinsIntegration.debug.xcconfig */,
+				B06C970482FDE00D85376697 /* Pods-jenkinsIntegration.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		A8F551A81AF9C064007903EC /* HockeySDK-iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -164,6 +178,8 @@
 				A8FD64EB1AF8B7E400874551 /* jenkinsIntegration */,
 				A8FD65081AF8B7E400874551 /* jenkinsIntegrationTests */,
 				A8FD64EA1AF8B7E400874551 /* Products */,
+				88F9BC5AF8FC75F4E5B11777 /* Pods */,
+				F3A89E566C529FF7ABA86A84 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -220,6 +236,14 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		F3A89E566C529FF7ABA86A84 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F3275F3716D6250F2FBB6906 /* libPods-jenkinsIntegration.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -227,9 +251,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A8FD650F1AF8B7E500874551 /* Build configuration list for PBXNativeTarget "jenkinsIntegration" */;
 			buildPhases = (
+				0399A0D303C652CEA8003F16 /* Check Pods Manifest.lock */,
 				A8FD64E51AF8B7E400874551 /* Sources */,
 				A8FD64E61AF8B7E400874551 /* Frameworks */,
 				A8FD64E71AF8B7E400874551 /* Resources */,
+				BF0AAB52BF563E076C3BCD8E /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -320,6 +346,39 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0399A0D303C652CEA8003F16 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		BF0AAB52BF563E076C3BCD8E /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-jenkinsIntegration/Pods-jenkinsIntegration-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		A8FD64E51AF8B7E400874551 /* Sources */ = {
@@ -454,6 +513,7 @@
 		};
 		A8FD65101AF8B7E500874551 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7FAE31A169D40009A1D3C8DE /* Pods-jenkinsIntegration.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -473,6 +533,7 @@
 		};
 		A8FD65111AF8B7E500874551 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B06C970482FDE00D85376697 /* Pods-jenkinsIntegration.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
